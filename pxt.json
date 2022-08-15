@@ -1,0 +1,26 @@
+{
+    "name": "d mini",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Quadrupedv2": "github:imrobotri/quadrupedv2#a42888ac3a3ab217b97b8e5cb8b1e0aac8b56952"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
